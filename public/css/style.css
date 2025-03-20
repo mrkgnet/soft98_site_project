@@ -3,7 +3,7 @@
 	font-family: 'iransnas';
 	
 	src:
-   url('../fonts/IRANSansXFaNum-Bold.ttf') format('truetype'),
+  
    url('../fonts/IRANSansXFaNum-Light.ttf') format('truetype'); /* Safari, Android, iOS */
 	font-weight: normal;
 	font-style: normal;
@@ -14,7 +14,7 @@
 
 body{
    font-family: 'iransnas';
-   font-size: 10pt !important;
-   font-weight: bold !important;
+   font-size: 9pt !important;
+   /* font-weight: bold !important; */
  
 }
