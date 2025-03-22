@@ -1,10 +1,11 @@
 /* Webfont: iransans */
 @font-face {
 	font-family: 'iransnas';
-	
+
 	src:
-  
-   url('../fonts/IRANSansXFaNum-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+
+		url('../fonts/IRANSansXFaNum-Light.ttf') format('truetype');
+	/* Safari, Android, iOS */
 	font-weight: normal;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -12,9 +13,62 @@
 }
 
 
-body{
-   font-family: 'iransnas';
-   font-size: 9pt !important;
-   /* font-weight: bold !important; */
- 
+body {
+	font-family: 'iransnas';
+	font-size: 9pt !important;
+	font-weight: bold !important;
+
+}
+
+.MhTabOne,
+.MhTabTwo {
+	display: none;
+}
+
+.MhTabOne.active {
+	display: block;
+
+}
+
+.MhTabTwo.active {
+	display: block;
+}
+
+.menu_right>ul>li {
+	/* position: relative; */
+}
+
+.menu_right>ul>li>a.triangleIcon::after {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6px 5px 0 5px;
+	border-color: #00A33D transparent transparent transparent;
+	transform: rotate(0deg);
+	position: absolute;
+	top: 46px;
+
+}
+
+.menu_left>ul>li>a.triangleIcon::after {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6px 5px 0 5px;
+	border-color: #00A33D transparent transparent transparent;
+	transform: rotate(0deg);
+	position: absolute;
+	top: 48px;
+}
+
+.envelopNav>ul,
+#submenu3 {
+	display: none;
+}
+
+#tabContentRight > ul > li.active{
+	border-bottom: none;
+	/* background-color: gray; */
 }
